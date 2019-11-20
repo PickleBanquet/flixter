@@ -84,6 +84,6 @@ test:
 production:
   # <<: *default
   # database: flixter_production
-  url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['postgres://ogzeyzsvjcopdh:27696d722bfd7ffd6c3998c9fccd2117c225b4e30ffb425f1e9cfd0c647228d2@ec2-174-129-227-128.compute-1.amazonaws.com:5432/d6n7387ni39ctp'] %>
   # username: flixter
   # password: <%= ENV['FLIXTER_DATABASE_PASSWORD'] %>
