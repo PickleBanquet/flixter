@@ -82,8 +82,8 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: flixter_production
+  # <<: *default
+  # database: flixter_production
   url: <%= ENV['DATABASE_URL'] %>
   # username: flixter
   # password: <%= ENV['FLIXTER_DATABASE_PASSWORD'] %>
